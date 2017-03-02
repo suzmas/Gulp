@@ -7,6 +7,7 @@ var gulpIf = require('gulp-if');
 var cssnano = require('gulp-cssnano');
 var imagemin = require('gulp-imagemin');
 var cache = require('gulp-cache');
+var del = require('del');
 
 gulp.task('browserSync', function(){
   browserSync.init({
@@ -48,4 +49,7 @@ gulp.task('watch', ['browserSync', 'sass'], function(){
   gulp.watch('app/scss/**/*.scss', ['sass']);
   gulp.watch('app/*.html', browserSync.reload);
   gulp.watch('app/js/**/*.js', browserSync.reload);
+});
+gulp.task('clean:dist', function(){
+  return del.sync('dist');
 });
