@@ -17,5 +17,5 @@ html {
   margin: 0;
   padding: 0; }
 
-.content-col {
-  border: 1px solid gray; }
+.content-col .card-wide {
+  width: 100%; }
