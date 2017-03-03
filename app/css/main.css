@@ -12,3 +12,10 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
+
+.mdl-grid {
+  margin: 0;
+  padding: 0; }
+
+.content-col {
+  border: 1px solid gray; }
