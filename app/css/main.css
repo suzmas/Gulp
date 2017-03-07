@@ -14,7 +14,18 @@ html {
           justify-content: center; }
 
 .mdl-layout__header {
-  margin-bottom: 5%; }
+  margin-bottom: 5%;
+  background-color: #fff; }
+
+.mdl-layout__header-row {
+  padding: 5%; }
 
 .content-col .card-wide {
   width: 100%; }
+
+.content-col .mdl-card__media {
+  background-color: #fff; }
+
+.active-link {
+  color: #fff !important;
+  background-color: #00a7e0; }

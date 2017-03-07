@@ -1,5 +1,9 @@
 .mdl-layout__header {
   margin-bottom: 5%;
+  background-color: #fff;
+}
+.mdl-layout__header-row {
+  padding: 5%;
 }
 .mdl-grid {
 }
@@ -9,4 +13,11 @@
   .card-wide {
     width: 100%;
   }
+  .mdl-card__media {
+    background-color: #fff;
+  }
+}
+.active-link {
+  color: #fff !important;
+  background-color: rgb(0, 167, 224);
 }
