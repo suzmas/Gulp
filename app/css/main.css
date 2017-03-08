@@ -18,13 +18,21 @@ html {
   background-color: #fff; }
 
 .mdl-layout__header-row {
-  padding: 5%; }
+  padding: 3em; }
+
+.left-col span.mdl-chip {
+  width: 90%; }
+
+.content-col .mdl-card {
+  padding: 2em; }
 
 .content-col .card-wide {
   width: 100%; }
 
 .content-col .mdl-card__media {
-  background-color: #fff; }
+  background-color: #fff;
+  width: 80%;
+  margin: auto; }
 
 .active-link {
   color: #fff !important;
