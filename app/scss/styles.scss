@@ -1,3 +1,26 @@
-i.mdl-list__item-icon {
-  font-size: 10px;
+
+
+
+// Top nav parallelogram bkg
+.polygon {
+  height: 100%;
+  -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  &:active {
+    background-color: rgb(0, 167, 224);
+  }
+}
+.active-link {
+  color: #fff !important;
+  background-color: rgb(0, 167, 224);
+}
+
+.bullet-list li {
+  list-style: circle !important;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
 }
