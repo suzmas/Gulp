@@ -2,12 +2,12 @@
   height: 100%;
   -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
   clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); }
-  .polygon:active {
+  .polygon a.active-link {
+    color: #fff !important;
     background-color: #00a7e0; }
 
-.active-link {
-  color: #fff !important;
-  background-color: #00a7e0; }
+a:active {
+  font-size: 40px; }
 
 .bullet-list li {
   list-style: circle !important; }
