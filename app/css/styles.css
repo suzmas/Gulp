@@ -1,13 +1,15 @@
 .polygon {
   height: 100%;
+  width: 100%;
+  text-align: center;
   -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
   clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); }
   .polygon a.active-link {
     color: #fff !important;
     background-color: #00a7e0; }
 
-a:active {
-  font-size: 40px; }
+a:hover {
+  color: #00a7e0 !important; }
 
 .bullet-list li {
   list-style: circle !important; }
