@@ -3,11 +3,9 @@
 
 // Top nav parallelogram bkg
 .polygon {
-  // width: 100%;
   text-align: center;
   -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
   clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-  // padding: 20px 0 20px 0 !important;
 
   a.active-link {
     color: white;
@@ -15,12 +13,30 @@
   }
 }
 
+.left-sidebar {
+  &.subnav {
+    background-color: #e6e6e6;
+    border-radius: .5em;
+
+    // padding: 1px;
+    h6 {
+      padding: 5%;
+      
+    }
+  }
+}
+
 .bullet-list li {
-  list-style: circle !important;
+  // padding: 0;
+  i.material-icons {
+    font-size: 10px;
+    color: rgb(0, 167, 224);
+    padding: 0 5px;
+  }
 }
 
 .flex-container {
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
+  justify-content: space-around;
 }

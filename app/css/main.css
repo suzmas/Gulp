@@ -20,8 +20,9 @@ html {
 .left-col span.mdl-chip {
   width: 80%; }
 
-.mdl-list__item-icon {
-  font-size: 10px !important; }
+.content-col .mdl-card {
+  margin: 1em;
+  padding: 2em; }
 
 .content-col .card-wide {
   width: 100%; }
@@ -40,8 +41,16 @@ html {
     color: white;
     background-color: #00a7e0; }
 
-.bullet-list li {
-  list-style: circle !important; }
+.left-sidebar.subnav {
+  background-color: #e6e6e6;
+  border-radius: .5em; }
+  .left-sidebar.subnav h6 {
+    padding: 5%; }
+
+.bullet-list li i.material-icons {
+  font-size: 10px;
+  color: #00a7e0;
+  padding: 0 5px; }
 
 .flex-container {
   display: -webkit-box;
@@ -51,6 +60,5 @@ html {
   -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
