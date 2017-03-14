@@ -10,17 +10,21 @@
   }
 }
 .content-col {
-  .mdl-card {
-    margin: 1em;
-    padding: 2em;
-  }
   .card-wide {
-    width: 100%;
+    width: 80%;
+    padding: 1em;
+    margin: auto;
   }
   .mdl-card__media {
     padding: 2em;
     background-color: white;
+    .img-overflow {
+      // width: 30%;
+      // height: auto;
+      overflow: auto;
+    }
     img {
+      flex-shrink: 1;
       padding: 1em;
     }
   }

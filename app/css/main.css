@@ -20,17 +20,19 @@ html {
 .left-col span.mdl-chip {
   width: 80%; }
 
-.content-col .mdl-card {
-  margin: 1em;
-  padding: 2em; }
-
 .content-col .card-wide {
-  width: 100%; }
+  width: 80%;
+  padding: 1em;
+  margin: auto; }
 
 .content-col .mdl-card__media {
   padding: 2em;
   background-color: white; }
+  .content-col .mdl-card__media .img-overflow {
+    overflow: auto; }
   .content-col .mdl-card__media img {
+    -ms-flex-negative: 1;
+        flex-shrink: 1;
     padding: 1em; }
 
 .polygon {

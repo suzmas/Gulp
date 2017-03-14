@@ -63,9 +63,11 @@
   <body>
       <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
         <header class="mdl-layout__header">
+          <div class="mdl-layout-icon"></div>
+
           <div class="mdl-layout__header-row">
             <!-- Title -->
-            <span class="mdl-layout-title"><img src="./images/leaselabs_logo.png"></span>
+            <span class="mdl-layout-title"><img class="mdl-layout--large-screen-only" src="./images/leaselabs_logo.png"></span>
             <!-- force nav to right -->
             <div class="mdl-layout-spacer"></div>
             <!-- Header Nav -->
@@ -91,7 +93,7 @@
               <div class="mdl-grid">
 
                 <!-- Left nav bar -->
-                <div class="mdl-cell mdl-cell--3-col mdl-cell--hide-phone left-col">
+                <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-phone left-col">
                   <div class="left-sidebar subnav">
                     <h6>SUBNAV</h6>
                   </div>
@@ -128,7 +130,7 @@
                   </ul>
                 </div>
                 <!-- Main content -->
-                <div class="mdl-cell mdl-cell--9-col mdl-cell--4-col-phone content-col">
+                <div class="mdl-cell mdl-cell--10-col mdl-cell--4-col-phone content-col">
 
                   <div class="mdl-card mdl-shadow--4dp card-wide">
                     <div class="mdl-card__title">
@@ -144,14 +146,19 @@
                       pulvinar velit. Donec ut velit turpis. Donec viverra ante vel facilisis iaculis.</p>
                     </div>
                     <div class="mdl-card__media flex-container">
-                      <img src="http://lorempixel.com/250/400" width="220" height="140" border="0" alt="">
-                      <img src="http://lorempixel.com/250/400" width="220" height="140" border="0" alt="">
-                      <img src="http://lorempixel.com/250/400" width="220" height="140" border="0" alt="">
+                      <div class="img-overflow">
+                        <img src="http://lorempixel.com/300/200" >
+                      </div>
+                      <div class="img-overflow">
+                        <img src="http://lorempixel.com/300/200" >
+                      </div>
+                      <div class="img-overflow">
+                        <img src="http://lorempixel.com/300/200" >
+                      </div>
                     </div>
+
                   </div>
-
                 </div>
-
               </div>
             </div>
          </main>
@@ -161,19 +168,6 @@
 <!-- build:js scripts/main.min.js -->
   <script src="js/main.js"></script>
 <!-- endbuild -->
-
-    <!-- <script>
-    <!-- Google Analytics -->
-      <!-- <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-XXXXX-Y', 'auto');
-      ga('send', 'pageview');
-      </script> -->
-      <!-- End Google Analytics -->
 
     </script> -->
   </body>
