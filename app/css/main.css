@@ -21,7 +21,7 @@ html {
   width: 80%; }
 
 .content-col .card-wide {
-  width: 80%;
+  width: 90%;
   padding: 1em;
   margin: auto; }
 
@@ -40,14 +40,13 @@ html {
   padding: 0 .5em; }
 
 .content-col .mdl-card__media {
-  padding: 2em;
+  padding: 1em;
   background-color: white; }
   .content-col .mdl-card__media .img-overflow {
     overflow: auto; }
   .content-col .mdl-card__media img {
-    -ms-flex-negative: 1;
-        flex-shrink: 1;
-    padding: 1em; }
+    margin: 1em;
+    border: 1px solid #00a7e0; }
 
 .polygon {
   text-align: center;
