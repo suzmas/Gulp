@@ -2,9 +2,7 @@
   margin-bottom: 3em;
   background-color: #fff;
 }
-.mdl-layout__header-row {
-  padding: 3em;
-}
+
 .mdl-grid {
 }
 .left-col {
@@ -17,13 +15,16 @@
 }
 .content-col {
   .mdl-card {
-    padding: 2em;
+    // padding: 2em;
   }
   .card-wide {
     width: 100%;
   }
   .mdl-card__media {
-    background-color: #fff;
-    width: 100%;
+    padding: 2em;
+    background-color: white;
+    img {
+      padding: 1em;
+    }
   }
 }

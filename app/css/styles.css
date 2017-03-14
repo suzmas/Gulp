@@ -1,15 +1,10 @@
 .polygon {
-  height: 100%;
-  width: 100%;
   text-align: center;
   -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
   clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); }
   .polygon a.active-link {
-    color: #fff !important;
+    color: white;
     background-color: #00a7e0; }
-
-a:hover {
-  color: #00a7e0 !important; }
 
 .bullet-list li {
   list-style: circle !important; }
@@ -22,6 +17,6 @@ a:hover {
   -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }

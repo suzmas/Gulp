@@ -3,19 +3,18 @@
 
 // Top nav parallelogram bkg
 .polygon {
-  height: 100%;
-  width: 100%;
+  // width: 100%;
   text-align: center;
   -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
   clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  // padding: 20px 0 20px 0 !important;
+
   a.active-link {
-    color: #fff !important;
+    color: white;
     background-color: rgb(0, 167, 224);
   }
 }
-a:hover {
-  color: rgb(0, 167, 224) !important;
-}
+
 .bullet-list li {
   list-style: circle !important;
 }
@@ -23,5 +22,5 @@ a:hover {
 .flex-container {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: center;
 }

@@ -1,7 +1,7 @@
 $(document).ready(function() {
-  $('nav a').click(function(){
+  $('a.mdl-navigation__link').click(function(){
+  $("a.active-link").removeClass('active-link');
   $(this).addClass('active-link');
-  $(this).parent().parent().children('a').not(this).removeClass('active-link');
 });
 });
 
