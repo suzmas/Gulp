@@ -17,6 +17,9 @@
   color: #00a7e0;
   padding: 0 5px; }
 
+.card-titles {
+  padding: 16px; }
+
 .flex-container {
   display: -webkit-box;
   display: -ms-flexbox;

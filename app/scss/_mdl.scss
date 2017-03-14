@@ -15,6 +15,20 @@
     padding: 1em;
     margin: auto;
   }
+  .mdl-card__title, .mdl-card__subtitle {
+    padding: 0;
+  }
+  .mdl-card__title-text {
+    font-weight: 500;
+    font-size: 2em;
+    color: rgb(0, 167, 224);
+  }
+  .mdl-card__subtitle-text {
+    font-weight: 400;
+    font-size: 1.5em;
+    font-style: italic;
+    padding: 0 .5em;
+  }
   .mdl-card__media {
     padding: 2em;
     background-color: white;

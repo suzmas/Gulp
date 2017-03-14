@@ -25,6 +25,20 @@ html {
   padding: 1em;
   margin: auto; }
 
+.content-col .mdl-card__title, .content-col .mdl-card__subtitle {
+  padding: 0; }
+
+.content-col .mdl-card__title-text {
+  font-weight: 500;
+  font-size: 2em;
+  color: #00a7e0; }
+
+.content-col .mdl-card__subtitle-text {
+  font-weight: 400;
+  font-size: 1.5em;
+  font-style: italic;
+  padding: 0 .5em; }
+
 .content-col .mdl-card__media {
   padding: 2em;
   background-color: white; }
@@ -53,6 +67,9 @@ html {
   font-size: 10px;
   color: #00a7e0;
   padding: 0 5px; }
+
+.card-titles {
+  padding: 16px; }
 
 .flex-container {
   display: -webkit-box;
