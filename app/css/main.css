@@ -59,6 +59,10 @@ html {
 a:hover {
   color: #22b3e4 !important; }
 
+.mdl-layout-title img {
+  width: 80%;
+  height: auto; }
+
 .polygon {
   text-align: center;
   -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
@@ -71,7 +75,8 @@ a:hover {
   background-color: #e6e6e6;
   border-radius: .5em; }
   .left-sidebar.subnav h6 {
-    padding: 5%; }
+    padding: 5%;
+    margin: 0; }
 
 aside {
   display: inline-block;
@@ -82,10 +87,15 @@ aside {
       flex-shrink: 0;
   z-index: 1; }
 
-.bullet-list li i.material-icons {
-  font-size: 10px;
-  color: #00a7e0;
-  padding: 0 5px; }
+.bullet-list {
+  padding: 0;
+  margin: 0; }
+  .bullet-list li {
+    padding: 0; }
+    .bullet-list li i.material-icons {
+      font-size: 10px;
+      color: #00a7e0;
+      padding: 0 5px; }
 
 .card-titles {
   padding: 16px; }

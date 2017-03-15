@@ -5,6 +5,13 @@ a:hover {
   color: $lease-labs-blue !important;
 }
 
+// *-- Top Navigation --* //
+
+.mdl-layout-title img {
+  width: 80%;
+  height: auto;
+}
+
 // Top nav parallelogram bkg
 .polygon {
   text-align: center;
@@ -23,6 +30,7 @@ a:hover {
     border-radius: .5em;
     h6 {
       padding: 5%;
+      margin: 0;
     }
   }
 }
@@ -38,11 +46,16 @@ aside {
 
 // Special styling to create a bulleted list since
 // Material Design refuses to give them over!
-.bullet-list li {
-  i.material-icons {
-    font-size: 10px;
-    color: rgb(0, 167, 224);
-    padding: 0 5px;
+.bullet-list {
+  padding: 0;
+  margin: 0;
+    li {
+    padding: 0;
+    i.material-icons {
+      font-size: 10px;
+      color: rgb(0, 167, 224);
+      padding: 0 5px;
+    }
   }
 }
 .card-titles {
