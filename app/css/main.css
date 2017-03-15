@@ -48,6 +48,9 @@ html {
     margin: 1em;
     border: 1px solid #00a7e0; }
 
+a:hover {
+  color: #22b3e4 !important; }
+
 .polygon {
   text-align: center;
   -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
