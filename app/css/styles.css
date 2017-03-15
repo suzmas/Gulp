@@ -15,6 +15,15 @@ a:hover {
   .left-sidebar.subnav h6 {
     padding: 5%; }
 
+aside {
+  display: inline-block;
+  width: 200px;
+  box-sizing: border-box;
+  padding: 24px 0;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  z-index: 1; }
+
 .bullet-list li i.material-icons {
   font-size: 10px;
   color: #00a7e0;
@@ -26,10 +35,4 @@ a:hover {
 .flex-container {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around; }
+  display: flex; }
