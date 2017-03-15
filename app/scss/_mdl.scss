@@ -31,10 +31,20 @@
   .mdl-card__media {
     padding: 1em;
     background-color: white;
+    min-height: 200px;
     .img-overflow {
       border: 3px solid rgb(0, 167, 224);
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      margin: 5px;
       img {
-        overflow: auto;
+        position: absolute;
+        top: -9999px;
+        bottom: -9999px;
+        left: -9999px;
+        right: -9999px;
+        margin: auto;
       }
     }
   }

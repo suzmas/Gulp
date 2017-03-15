@@ -40,11 +40,21 @@ html {
 
 .content-col .mdl-card__media {
   padding: 1em;
-  background-color: white; }
+  background-color: white;
+  min-height: 200px; }
   .content-col .mdl-card__media .img-overflow {
-    border: 3px solid #00a7e0; }
+    border: 3px solid #00a7e0;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin: 5px; }
     .content-col .mdl-card__media .img-overflow img {
-      overflow: auto; }
+      position: absolute;
+      top: -9999px;
+      bottom: -9999px;
+      left: -9999px;
+      right: -9999px;
+      margin: auto; }
 
 a:hover {
   color: #22b3e4 !important; }
