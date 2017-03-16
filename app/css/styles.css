@@ -8,9 +8,10 @@ a:hover {
 .polygon {
   text-align: center;
   -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); }
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  min-width: 121px; }
   .polygon a.active-link {
-    color: white;
+    color: white !important;
     background-color: #00a7e0; }
 
 .left-sidebar.subnav {
