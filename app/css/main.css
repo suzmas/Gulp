@@ -30,6 +30,8 @@ nav.mdl-navigation {
 
 .sm-screen-logo {
   text-align: center; }
+  .sm-screen-logo img {
+    padding: 1em; }
 
 .page-content {
   max-width: 95%;
