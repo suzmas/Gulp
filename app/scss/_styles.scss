@@ -15,7 +15,13 @@ a:hover {
   text-align: center;
   -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
   clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-  min-width: 121px;
+  min-width: 140px;
+  height: 100%;
+  margin-left: -35px;
+  a {
+    height: 100%;
+    font-size: 1em;
+  }
 
   a.active-link {
     color: white !important;

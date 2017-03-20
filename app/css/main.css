@@ -15,10 +15,18 @@ html {
 
 .mdl-layout__header {
   background-color: #fff;
+  height: 6em;
   margin-bottom: 2em; }
 
 .mdl-layout__header-row {
-  padding: 5px; }
+  height: 100%; }
+  .mdl-layout__header-row nav.mdl-navigation {
+    height: 100%; }
+    .mdl-layout__header-row nav.mdl-navigation a.mdl-navigation__link {
+      line-height: 6em; }
+
+nav.mdl-navigation {
+  height: 100%; }
 
 .sm-screen-logo {
   text-align: center; }
@@ -75,7 +83,12 @@ a:hover {
   text-align: center;
   -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
   clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-  min-width: 121px; }
+  min-width: 140px;
+  height: 100%;
+  margin-left: -35px; }
+  .polygon a {
+    height: 100%;
+    font-size: 1em; }
   .polygon a.active-link {
     color: white !important;
     background-color: #00a7e0; }

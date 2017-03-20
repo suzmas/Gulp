@@ -1,9 +1,19 @@
 .mdl-layout__header {
   background-color: #fff;
+  height: 6em;
   margin-bottom: 2em;
 }
 .mdl-layout__header-row {
-  padding: 5px;
+  height: 100%;
+  nav.mdl-navigation {
+    height: 100%;
+    a.mdl-navigation__link {
+      line-height: 6em;
+    }
+  }
+}
+nav.mdl-navigation {
+  height: 100%;
 }
 .sm-screen-logo {
   text-align: center;
