@@ -1,10 +1,21 @@
+
+// Top Navbar active link highlighting
 $(document).ready(function() {
   $('a.mdl-navigation__link').click(function(){
-  $("a.active-link").removeClass('active-link');
-  $(this).addClass('active-link');
-});
+    $("a.active-link").removeClass('active-link');
+    $(this).addClass('active-link');
+  });
 });
 
-//broken because the nav element is not the direct parent and the a
-// elements are not the direct children- fix
-console.log("what");
+// $(document).ready(function() {
+//
+// 	let elements = Object.keys(images).map(function(item) {
+// 	  let img = images[item];
+// 	  return(
+// 	    "<div class='img-overflow'><div class='hov-container img-container'><img src='" + img.path + "'><div class='hov-text'><h4>" + img.heading + "</h4>" +img.description+"</div></div></div>"
+// 	  )
+// 	});
+//
+// 	$("div#main-img-row").html(elements);
+//
+// });

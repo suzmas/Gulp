@@ -14,7 +14,11 @@ html {
           justify-content: center; }
 
 .mdl-layout__header {
-  background-color: #fff; }
+  background-color: #fff;
+  margin-bottom: 2em; }
+
+.mdl-layout__header-row {
+  padding: 5px; }
 
 .sm-screen-logo {
   text-align: center; }
@@ -22,9 +26,6 @@ html {
 .page-content {
   max-width: 95%;
   margin: auto; }
-
-.left-col span.mdl-chip {
-  width: 80%; }
 
 .content-col .card-wide {
   width: 90%;
@@ -37,7 +38,7 @@ html {
 .content-col .mdl-card__title-text {
   font-weight: 500;
   font-size: 2em;
-  color: #00a7e0; }
+  color: #22b3e4; }
 
 .content-col .mdl-card__subtitle-text {
   font-weight: 400;
@@ -48,7 +49,7 @@ html {
 .content-col .mdl-card__media {
   padding: 1em;
   background-color: white;
-  min-height: 200px; }
+  min-height: 250px; }
   .content-col .mdl-card__media .img-overflow {
     border: 3px solid #00a7e0;
     position: relative;
@@ -83,23 +84,25 @@ a:hover {
   background-color: #e6e6e6;
   border-radius: .5em; }
   .left-sidebar.subnav h6 {
-    padding: 5%;
+    font-size: 1em;
+    padding: 5px;
     margin: 0; }
 
 aside {
   display: inline-block;
-  width: 200px;
+  width: 100%;
   box-sizing: border-box;
-  padding: 24px 0;
   -ms-flex-negative: 0;
       flex-shrink: 0;
   z-index: 1; }
 
 .bullet-list {
+  list-style-type: none;
   padding: 0;
   margin: 0; }
   .bullet-list li {
-    padding: 0; }
+    padding: 5px;
+    margin: 0; }
     .bullet-list li i.material-icons {
       font-size: 10px;
       color: #00a7e0;

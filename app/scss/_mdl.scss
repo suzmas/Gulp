@@ -1,19 +1,16 @@
 .mdl-layout__header {
   background-color: #fff;
+  margin-bottom: 2em;
+}
+.mdl-layout__header-row {
+  padding: 5px;
 }
 .sm-screen-logo {
   text-align: center;
 }
-.mdl-grid {
-}
 .page-content {
   max-width: 95%;
   margin: auto;
-}
-.left-col {
-  span.mdl-chip {
-    width: 80%;
-  }
 }
 .content-col {
   .card-wide {
@@ -27,7 +24,7 @@
   .mdl-card__title-text {
     font-weight: 500;
     font-size: 2em;
-    color: rgb(0, 167, 224);
+    color: $lease-labs-blue;
   }
   .mdl-card__subtitle-text {
     font-weight: 400;
@@ -38,7 +35,7 @@
   .mdl-card__media {
     padding: 1em;
     background-color: white;
-    min-height: 200px;
+    min-height:250px;
     .img-overflow {
       border: 3px solid rgb(0, 167, 224);
       position: relative;
