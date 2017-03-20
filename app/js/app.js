@@ -15,6 +15,3 @@ var images = {
 		path: 'images/beast.jpg'
 	}
 };
- $(document).ready(function(){
-	 console.log("READY");
- });

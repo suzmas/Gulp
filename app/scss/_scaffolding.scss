@@ -2,6 +2,9 @@
 html {
   font: $font-style $font-variant $font-weight #{$font-size}/#{$line-height} $font-family;
 }
+body {
+    font: $font-style $font-variant $font-weight #{$font-size}/#{$line-height} $font-family;
+}
 
 // Vertically center anything
 .vertical-center {

@@ -1,6 +1,9 @@
 /* Main CSS File */
 html {
-  font: normal normal normal 1rem/1.5 Helvetica Neue, Helvetica, Arial, sans-serif; }
+  font: normal normal normal 1rem/1.5 "Roboto", sans-serif; }
+
+body {
+  font: normal normal normal 1rem/1.5 "Roboto", sans-serif; }
 
 .vertical-center {
   display: -webkit-box;
@@ -23,7 +26,7 @@ html {
   .mdl-layout__header-row nav.mdl-navigation {
     height: 100%; }
     .mdl-layout__header-row nav.mdl-navigation a.mdl-navigation__link {
-      line-height: 6em; }
+      padding-top: 10%; }
 
 nav.mdl-navigation {
   height: 100%; }
@@ -90,7 +93,7 @@ a:hover {
   margin-left: -35px; }
   .polygon a {
     height: 100%;
-    font-size: 1em; }
+    padding-top: 40%; }
   .polygon a.active-link {
     color: white !important;
     background-color: #00a7e0; }
