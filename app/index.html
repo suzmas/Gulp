@@ -59,25 +59,10 @@
    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
   </head>
-  <div class="mdl-tabs mdl-js-tabs">
-    <div class="mdl-tabs__tab-bar">
-      <a href="#tab1" class="mdl-tabs__tab">Tab One</a>
-      <a href="#tab2" class="mdl-tabs__tab">Tab Two</a>
-      <a href="#tab3" class="mdl-tabs__tab">Tab Three</a>
-    </div>
-    <div class="mdl-tabs__panel is-active" id="tab1">
-      <p>First tab's content.</p>
-    </div>
-    <div class="mdl-tabs__panel" id="tab2">
-      <p>Second tab's content.</p>
-    </div>
-    <div class="mdl-tabs__panel" id="tab3">
-      <p>Third tab's content.</p>
-    </div>
-  </div>
+
   <body>
       <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-        <header class="mdl-layout__header">
+        <header style="z-index: 100" class="mdl-layout__header">
           <div class="mdl-layout-icon"></div>
 
           <div class="mdl-layout__header-row">
@@ -104,7 +89,7 @@
         </header>
 
         <!-- Begin Left Drawer -->
-        <div class="mdl-layout__drawer">
+        <div class="mdl-layout__drawer mdl-layout--small-screen-only">
           <span class="mdl-layout-title">Lease Labs</span>
           <div class="left-sidebar subnav">
             <h6>SUBNAV</h6>
@@ -147,7 +132,7 @@
               <div class="mdl-grid">
 
                 <!-- Left nav bar -->
-                <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-phone left-col">
+                <div class="mdl-cell mdl-cell--2-col mdl-layout--large-screen-only left-col">
                   <aside>
                   <div class="left-sidebar subnav">
                     <h6>SUBNAV</h6>
