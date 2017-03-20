@@ -16,6 +16,13 @@ html {
 .mdl-layout__header {
   background-color: #fff; }
 
+.sm-screen-logo {
+  text-align: center; }
+
+.page-content {
+  max-width: 95%;
+  margin: auto; }
+
 .left-col span.mdl-chip {
   width: 80%; }
 
