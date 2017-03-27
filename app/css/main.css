@@ -18,7 +18,7 @@ body {
 
 .mdl-layout__header {
   background-color: #fff;
-  height: 6em;
+  height: 5.5em;
   margin-bottom: 2em; }
 
 .mdl-layout__header-row {
@@ -70,6 +70,8 @@ nav.mdl-navigation {
     width: 100%;
     margin: 5px; }
     .content-col .mdl-card__media .img-overflow img {
+      max-width: 20em;
+      height: auto;
       position: absolute;
       top: -9999px;
       bottom: -9999px;
@@ -77,8 +79,11 @@ nav.mdl-navigation {
       right: -9999px;
       margin: auto; }
 
-a:hover {
-  color: #22b3e4 !important; }
+a {
+  text-decoration: none;
+  color: inherit; }
+  a:hover {
+    color: #22b3e4 !important; }
 
 .mdl-layout-title img {
   width: 80%;
@@ -103,7 +108,7 @@ a:hover {
   border-radius: .5em; }
   .left-sidebar.subnav h6 {
     font-size: 1em;
-    padding: 5px;
+    padding: 10px;
     margin: 0; }
 
 aside {

@@ -1,6 +1,10 @@
 
-a:hover {
-  color: $lease-labs-blue !important;
+a {
+  text-decoration: none;
+  color: inherit;
+  &:hover {
+    color: $lease-labs-blue !important;
+  }
 }
 
 // *-- Top Navigation --* //
@@ -35,7 +39,7 @@ a:hover {
     border-radius: .5em;
     h6 {
       font-size: 1em;
-      padding: 5px;
+      padding: 10px;
       margin: 0;
     }
   }

@@ -1,6 +1,6 @@
 .mdl-layout__header {
   background-color: #fff;
-  height: 6em;
+  height: 5.5em;
   margin-bottom: 2em;
 }
 .mdl-layout__header-row {
@@ -56,6 +56,9 @@ nav.mdl-navigation {
       width: 100%;
       margin: 5px;
       img {
+        max-width: 20em;
+        height: auto;
+        // center image
         position: absolute;
         top: -9999px;
         bottom: -9999px;
